@@ -94,7 +94,7 @@ public class ApplicationContext {
                 Object cx =  classInfo.getDeclaredAnnotation(containerAnnotation);
                 if (cx != null) {
                     exisClassesAnnotation.add(classInfo);
-                    continue;
+                    break;
                 }
             }
         }
